@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Main{
+ background-color:  gold;
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ box-shadow: 0px 0px 0px;
+}
+ul li{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Poppins,Tahoma
+}
+img{
+    width: 75px;
+    margin-right: 10%;
+}
+.img_icon{
+display: flex;
+font-size: 28px;
+color: red;
+}
+
+/* Make responsive Navbar */
+@media (max-width: 900px) {
+       img{
+          display: none;
+       }
+      .cart_icon{
+        display: none;
+      }
+      ul li{
+        font-size: 10px;
+      }
+}  
+
+ /* @media  (max-width: 700px) {
+    img{
+       display: none;
+    }
+   .cart_icon{
+     display: none;
+   }
+   ul li{
+     font-size: 10px;
+   }
+}    */
+
